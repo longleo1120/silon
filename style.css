@@ -1,0 +1,388 @@
+wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  display: block;
+  position: relative;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.header span {
+  color: #000;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header .navbar-nav li a {
+  color: #000 !important;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 0.8;
+  padding: 40px 15px;
+  text-transform: uppercase;
+}
+
+.header .nav1 {
+  padding: 0 200px;
+}
+
+.header .nav1 ul {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .top-header {
+  background-color: #fef7f6;
+  padding: 10px 0;
+}
+
+.header .top-header .text-right {
+  text-align: right;
+}
+
+.header .item-head a {
+  color: #000;
+  padding: 5px;
+}
+
+.banner {
+  background-image: url(./img/bg-1.jpg);
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banner .banner-content {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.banner .banner-content .tagline {
+  color: #565656;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 0.8;
+  letter-spacing: 2.8px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.banner .banner-content h1 {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 70px;
+  margin-bottom: 45px;
+}
+
+.banner .banner-content .btn-danger {
+  min-width: 170px;
+  text-transform: uppercase;
+}
+
+.banner .banner-content .btn-danger:hover {
+  color: blueviolet !important;
+  background-color: #fef7f6;
+  border-color: #fef7f6;
+}
+
+.feat-product .sec-heading {
+  margin-bottom: 80px;
+}
+
+.feat-product .sec-heading h3 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.feat-product .product-item {
+  position: relative;
+}
+
+.feat-product .product-item .product-thumb {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.feat-product .action-links {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+
+.feat-product .action-links .icon {
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+}
+
+.feat-product .product-item:hover .action-links {
+  opacity: 1;
+}
+
+.feat-product .product-content {
+  text-align: center;
+}
+
+.feat-product .product-content .product-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.feat-product .product-content a {
+  text-decoration: none;
+  color: #888;
+}
+
+.feat-product .product-content a:hover {
+  color: red;
+}
+
+.feat-product .product-content .ratings a {
+  color: red !important;
+}
+
+.banner2 {
+  background-color: #eae2d8;
+}
+
+.banner2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banner2 h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 33px;
+  font-size: 58px;
+  line-height: 70px;
+}
+
+.banner2 h4 {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 54px;
+}
+
+.banner2 .btn-danger {
+  min-width: 170px;
+  text-transform: uppercase;
+}
+
+.banner2 .btn-danger:hover {
+  color: blueviolet !important;
+  background-color: #fef7f6;
+  border-color: #fef7f6;
+}
+
+.popular img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.popular .product-item {
+  position: relative;
+}
+
+.popular .product-item .product-thumb {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.popular .product-content {
+  text-align: center;
+}
+
+.popular .product-content .product-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.popular .product-content a {
+  text-decoration: none;
+  color: #888;
+}
+
+.popular .product-content a:hover {
+  color: red;
+}
+
+.popular .product-content .ratings a {
+  color: red !important;
+}
+
+.features .box-feat {
+  border: 1px solid #ebeef0;
+  position: relative;
+  padding: 25px;
+  text-align: center;
+}
+
+.features .box-feat h5 {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features .box-feat p {
+  color: #888;
+  line-height: 18px;
+}
+
+.features .box-feat .icon-feat {
+  max-width: 56px;
+  margin: 0 auto 27px;
+}
+
+.silon-jou .sec-heading {
+  margin-bottom: 80px;
+}
+
+.silon-jou .sec-heading h3 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.silon-jou .post-item .post-meta {
+  position: relative;
+  color: #888;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.silon-jou .post-item img {
+  margin-bottom: 25px;
+}
+
+.silon-jou .post-item .post-title {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.silon-jou .post-item .post-title a {
+  color: #000;
+  display: block;
+}
+
+.silon-jou .post-item .post-title a:hover {
+  color: red;
+}
+
+.instagram .sec-heading {
+  margin-bottom: 80px;
+}
+
+.instagram .sec-heading h3 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.instagram a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.instagram i {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.instagram a:before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 83, 83, 0.7);
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.instagram a:hover::before {
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+
+.instagram a:hover i {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footer {
+  background-color: #e9e2d8;
+}
+/*# sourceMappingURL=style.css.map */
