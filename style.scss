@@ -292,11 +292,13 @@ section{
             a{
                 color: #000;
                 display: block;
-                
+              &:hover{
+                  color: red;
+              }  
             }
-            a:hover{
-                color: red;
-            }
+            // a:hover{
+            //     color: red;
+            // }
         }
     }
 }
@@ -358,4 +360,10 @@ section{
 }
 .footer{
     background-color: #e9e2d8;
+    a{
+        color: #888;
+    }
+    a:hover{
+        color: red;
+    }
 }
